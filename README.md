@@ -15,6 +15,8 @@ conda deactivate
 
 2. Deidentify:
 
+Mac is currently not supported. Make sure you have `cmake` installed in your system. Then run:
+
 ```
 conda create -n deidentify python=3.10
 conda activate deidentify
