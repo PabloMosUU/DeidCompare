@@ -9,6 +9,7 @@ def get_first_names(meta: dict) -> list:
     first_names = f"{meta['VOORNAAM'] if 'VOORNAAM' in meta else ''} {meta['ROEPNAAM'] if 'ROEPNAAM' in meta else ''}"
     return first_names.split()
 
+
 if __name__ == '__main__':
     # Deduce instance
     deduce = Deduce()

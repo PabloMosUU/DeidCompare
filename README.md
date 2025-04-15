@@ -9,7 +9,7 @@ This repository contains two Python scripts, `Deduce.py` and `Deidentify.py`, wh
 ```
 conda create -n deduce python=3.11
 conda activate deduce
-pip install deduce==2.0.3
+pip install deduce==2.0.3 pandas scikit-learn
 conda deactivate
 ```
 
